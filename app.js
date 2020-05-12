@@ -292,7 +292,7 @@ if(program.address) {
 			console.error("Found UM34C device with address: " + address);
 			connect(address, name);
 		}
-	}).inquire();
+	}).scan();
 }
 
 
